@@ -1,7 +1,7 @@
 // this is for simulating a db using objects
 
 const db = {
-  examples: [
+  todos: [
     {
       id: 1,
       text: "text 1",

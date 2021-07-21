@@ -1,0 +1,25 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "1. clone the repo locally 2. cd into /node-template 3. open in vscode      ```code .``` 4. initialize npm      ```npm init``` 5. install express     ```npm install express``` 6. install nodemon     ```npm install nodemon``` 7. run the server      ```npm run dev```",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todd-trowbridge/todo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/todd-trowbridge/todo-app/issues"
+  },
+  "homepage": "https://github.com/todd-trowbridge/todo-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
