@@ -42,15 +42,15 @@ app.post("/api/v1/todos", (req, res) => {
 // update existing todos by id
 app.patch("/api/v1/todos/:id", (req, res) => {
   // get the id from the route
-  const id = parseInt(req.params.id)
+  const id = parseInt(req.params.id);
   // find the existing todo
   const todoIndex = db.todos.findIndex((todo) => {
-    return todo.id === id
-  })
+    return todo.id === id;
+  });
   // update the todo
-  db.todos[todoIndex].text = req.body.text
+  db.todos[todoIndex].text = req.body.text;
   // respond with updated item
-  res.json(db.todos[todoIndex])
+  res.json(db.todos[todoIndex]);
 });
 
 // listen for requests
