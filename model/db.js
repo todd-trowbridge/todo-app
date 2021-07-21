@@ -4,13 +4,28 @@ const db = {
   todos: [
     {
       id: 1,
-      text: "text 1",
-      completed: false
+      text: "buy milk",
+      completed: true
     },
     {
       id: 2,
-      text: "text 2",
+      text: "buy eggs",
       completed: true
+    },
+    {
+      id: 3,
+      text: "buy flour",
+      completed: false
+    },
+    {
+      id: 4,
+      text: "buy sugar",
+      completed: false
+    },
+    {
+      id: 5,
+      text: "make pancakes",
+      completed: false
     },
   ]
 }
